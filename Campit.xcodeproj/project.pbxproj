@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03DFC4242AB9661000DF5BAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DFC4232AB9661000DF5BAB /* AppDelegate.swift */; };
+		03DFC4262AB9661000DF5BAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DFC4252AB9661000DF5BAB /* SceneDelegate.swift */; };
+		03DFC42E2AB9661000DF5BAB /* Campit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03DFC42C2AB9661000DF5BAB /* Campit.xcdatamodeld */; };
+		03DFC4302AB9661300DF5BAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03DFC42F2AB9661300DF5BAB /* Assets.xcassets */; };
+		03DFC4332AB9661300DF5BAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03DFC4312AB9661300DF5BAB /* LaunchScreen.storyboard */; };
+		03DFC43E2AB9673100DF5BAB /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DFC43D2AB9673100DF5BAB /* MainTabBarController.swift */; };
+		03DFC4422AB967B800DF5BAB /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DFC4412AB967B800DF5BAB /* Resources.swift */; };
+		03DFC4442AB967C900DF5BAB /* UIColor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DFC4432AB967C900DF5BAB /* UIColor + ext.swift */; };
+		03DFC4462AB96AF400DF5BAB /* AllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DFC4452AB96AF400DF5BAB /* AllViewController.swift */; };
+		03DFC4482AB96AFE00DF5BAB /* TodayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DFC4472AB96AFE00DF5BAB /* TodayController.swift */; };
+		03DFC44A2AB96B0B00DF5BAB /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DFC4492AB96B0B00DF5BAB /* SettingsController.swift */; };
+		03DFC4552AB97EE700DF5BAB /* montreal-serial-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DFC4542AB97EE700DF5BAB /* montreal-serial-regular.ttf */; };
+		03DFC4572AB97EF900DF5BAB /* montreal-serial-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DFC4562AB97EF900DF5BAB /* montreal-serial-bold.ttf */; };
+		03DFC45B2ABA058200DF5BAB /* ArquitectaLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 03DFC45A2ABA058200DF5BAB /* ArquitectaLight.otf */; };
+		03DFC45D2ABAB60100DF5BAB /* AddNewCommitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DFC45C2ABAB60100DF5BAB /* AddNewCommitController.swift */; };
+		03DFC45F2ABB2A3A00DF5BAB /* UITextField + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DFC45E2ABB2A3A00DF5BAB /* UITextField + ext.swift */; };
+		03DFC4622ABB40B400DF5BAB /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DFC4612ABB40B400DF5BAB /* CustomButton.swift */; };
+		2320A871F1922917D27BD0CF /* Pods_Campit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251B0B847584B23FEA4FCC30 /* Pods_Campit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03DFC4202AB9661000DF5BAB /* Campit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Campit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03DFC4232AB9661000DF5BAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03DFC4252AB9661000DF5BAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		03DFC42D2AB9661000DF5BAB /* Campit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Campit.xcdatamodel; sourceTree = "<group>"; };
+		03DFC42F2AB9661300DF5BAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03DFC4322AB9661300DF5BAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03DFC4342AB9661300DF5BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03DFC43D2AB9673100DF5BAB /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		03DFC4412AB967B800DF5BAB /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		03DFC4432AB967C900DF5BAB /* UIColor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ext.swift"; sourceTree = "<group>"; };
+		03DFC4452AB96AF400DF5BAB /* AllViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllViewController.swift; sourceTree = "<group>"; };
+		03DFC4472AB96AFE00DF5BAB /* TodayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayController.swift; sourceTree = "<group>"; };
+		03DFC4492AB96B0B00DF5BAB /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		03DFC4542AB97EE700DF5BAB /* montreal-serial-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "montreal-serial-regular.ttf"; sourceTree = "<group>"; };
+		03DFC4562AB97EF900DF5BAB /* montreal-serial-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "montreal-serial-bold.ttf"; sourceTree = "<group>"; };
+		03DFC45A2ABA058200DF5BAB /* ArquitectaLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ArquitectaLight.otf; sourceTree = "<group>"; };
+		03DFC45C2ABAB60100DF5BAB /* AddNewCommitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCommitController.swift; sourceTree = "<group>"; };
+		03DFC45E2ABB2A3A00DF5BAB /* UITextField + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField + ext.swift"; sourceTree = "<group>"; };
+		03DFC4612ABB40B400DF5BAB /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		251B0B847584B23FEA4FCC30 /* Pods_Campit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Campit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C7DDC6E13F388CF2CECB73 /* Pods-Campit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campit.release.xcconfig"; path = "Target Support Files/Pods-Campit/Pods-Campit.release.xcconfig"; sourceTree = "<group>"; };
+		E2E3DD59C18B8691F122AC29 /* Pods-Campit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campit.debug.xcconfig"; path = "Target Support Files/Pods-Campit/Pods-Campit.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03DFC41D2AB9661000DF5BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2320A871F1922917D27BD0CF /* Pods_Campit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03DFC4172AB9661000DF5BAB = {
+			isa = PBXGroup;
+			children = (
+				03DFC4222AB9661000DF5BAB /* Campit */,
+				03DFC4212AB9661000DF5BAB /* Products */,
+				91DA80DE0880222B09E96687 /* Pods */,
+				665C27B2E3A6CED90C39A9CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03DFC4212AB9661000DF5BAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03DFC4202AB9661000DF5BAB /* Campit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03DFC4222AB9661000DF5BAB /* Campit */ = {
+			isa = PBXGroup;
+			children = (
+				03DFC43F2AB967AC00DF5BAB /* Helpers */,
+				03DFC43C2AB966DB00DF5BAB /* Resources */,
+				03DFC43B2AB966D300DF5BAB /* Controllers */,
+				03DFC43A2AB966AB00DF5BAB /* Application */,
+				03DFC42C2AB9661000DF5BAB /* Campit.xcdatamodeld */,
+			);
+			path = Campit;
+			sourceTree = "<group>";
+		};
+		03DFC43A2AB966AB00DF5BAB /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				03DFC4232AB9661000DF5BAB /* AppDelegate.swift */,
+				03DFC4252AB9661000DF5BAB /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		03DFC43B2AB966D300DF5BAB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				03DFC4602ABB409E00DF5BAB /* CustomViews */,
+				03DFC43D2AB9673100DF5BAB /* MainTabBarController.swift */,
+				03DFC4452AB96AF400DF5BAB /* AllViewController.swift */,
+				03DFC4472AB96AFE00DF5BAB /* TodayController.swift */,
+				03DFC4492AB96B0B00DF5BAB /* SettingsController.swift */,
+				03DFC45C2ABAB60100DF5BAB /* AddNewCommitController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		03DFC43C2AB966DB00DF5BAB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03DFC44B2AB9744A00DF5BAB /* Fonts */,
+				03DFC42F2AB9661300DF5BAB /* Assets.xcassets */,
+				03DFC4312AB9661300DF5BAB /* LaunchScreen.storyboard */,
+				03DFC4342AB9661300DF5BAB /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		03DFC43F2AB967AC00DF5BAB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				03DFC4402AB967B000DF5BAB /* Extensions */,
+				03DFC4412AB967B800DF5BAB /* Resources.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		03DFC4402AB967B000DF5BAB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				03DFC4432AB967C900DF5BAB /* UIColor + ext.swift */,
+				03DFC45E2ABB2A3A00DF5BAB /* UITextField + ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		03DFC44B2AB9744A00DF5BAB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				03DFC4562AB97EF900DF5BAB /* montreal-serial-bold.ttf */,
+				03DFC4542AB97EE700DF5BAB /* montreal-serial-regular.ttf */,
+				03DFC45A2ABA058200DF5BAB /* ArquitectaLight.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		03DFC4602ABB409E00DF5BAB /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				03DFC4612ABB40B400DF5BAB /* CustomButton.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		665C27B2E3A6CED90C39A9CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				251B0B847584B23FEA4FCC30 /* Pods_Campit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91DA80DE0880222B09E96687 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2E3DD59C18B8691F122AC29 /* Pods-Campit.debug.xcconfig */,
+				B9C7DDC6E13F388CF2CECB73 /* Pods-Campit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03DFC41F2AB9661000DF5BAB /* Campit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03DFC4372AB9661300DF5BAB /* Build configuration list for PBXNativeTarget "Campit" */;
+			buildPhases = (
+				972B6D16951FD1491D43DCEC /* [CP] Check Pods Manifest.lock */,
+				03DFC41C2AB9661000DF5BAB /* Sources */,
+				03DFC41D2AB9661000DF5BAB /* Frameworks */,
+				03DFC41E2AB9661000DF5BAB /* Resources */,
+				1BBBB78FD53C7C59D26F2916 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Campit;
+			productName = Campit;
+			productReference = 03DFC4202AB9661000DF5BAB /* Campit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03DFC4182AB9661000DF5BAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					03DFC41F2AB9661000DF5BAB = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 03DFC41B2AB9661000DF5BAB /* Build configuration list for PBXProject "Campit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03DFC4172AB9661000DF5BAB;
+			productRefGroup = 03DFC4212AB9661000DF5BAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03DFC41F2AB9661000DF5BAB /* Campit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03DFC41E2AB9661000DF5BAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DFC4332AB9661300DF5BAB /* LaunchScreen.storyboard in Resources */,
+				03DFC4572AB97EF900DF5BAB /* montreal-serial-bold.ttf in Resources */,
+				03DFC45B2ABA058200DF5BAB /* ArquitectaLight.otf in Resources */,
+				03DFC4302AB9661300DF5BAB /* Assets.xcassets in Resources */,
+				03DFC4552AB97EE700DF5BAB /* montreal-serial-regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BBBB78FD53C7C59D26F2916 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Campit/Pods-Campit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Campit/Pods-Campit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Campit/Pods-Campit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		972B6D16951FD1491D43DCEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Campit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03DFC41C2AB9661000DF5BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DFC4622ABB40B400DF5BAB /* CustomButton.swift in Sources */,
+				03DFC42E2AB9661000DF5BAB /* Campit.xcdatamodeld in Sources */,
+				03DFC45D2ABAB60100DF5BAB /* AddNewCommitController.swift in Sources */,
+				03DFC4242AB9661000DF5BAB /* AppDelegate.swift in Sources */,
+				03DFC4462AB96AF400DF5BAB /* AllViewController.swift in Sources */,
+				03DFC45F2ABB2A3A00DF5BAB /* UITextField + ext.swift in Sources */,
+				03DFC43E2AB9673100DF5BAB /* MainTabBarController.swift in Sources */,
+				03DFC4482AB96AFE00DF5BAB /* TodayController.swift in Sources */,
+				03DFC4442AB967C900DF5BAB /* UIColor + ext.swift in Sources */,
+				03DFC4422AB967B800DF5BAB /* Resources.swift in Sources */,
+				03DFC4262AB9661000DF5BAB /* SceneDelegate.swift in Sources */,
+				03DFC44A2AB96B0B00DF5BAB /* SettingsController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03DFC4312AB9661300DF5BAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03DFC4322AB9661300DF5BAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03DFC4352AB9661300DF5BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03DFC4362AB9661300DF5BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03DFC4382AB9661300DF5BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E3DD59C18B8691F122AC29 /* Pods-Campit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CS22N9WW2T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Campit/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akherik.Campit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03DFC4392AB9661300DF5BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9C7DDC6E13F388CF2CECB73 /* Pods-Campit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CS22N9WW2T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Campit/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akherik.Campit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03DFC41B2AB9661000DF5BAB /* Build configuration list for PBXProject "Campit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DFC4352AB9661300DF5BAB /* Debug */,
+				03DFC4362AB9661300DF5BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03DFC4372AB9661300DF5BAB /* Build configuration list for PBXNativeTarget "Campit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DFC4382AB9661300DF5BAB /* Debug */,
+				03DFC4392AB9661300DF5BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03DFC42C2AB9661000DF5BAB /* Campit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03DFC42D2AB9661000DF5BAB /* Campit.xcdatamodel */,
+			);
+			currentVersion = 03DFC42D2AB9661000DF5BAB /* Campit.xcdatamodel */;
+			path = Campit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 03DFC4182AB9661000DF5BAB /* Project object */;
+}
