@@ -16,6 +16,8 @@ enum Resources {
         static var inactive = UIColor(hexString: "#57595c")
         static var greenTint = UIColor(hexString: "#6bd064")
         static var secondary = UIColor(hexString: "#171b20")
+        static var buttonIsHighlighted = UIColor(hexString: "#171b20")
+        static var buttonSecondaryTitle = UIColor(hexString: "#434852")
     }
     
     enum Strings {

@@ -24,6 +24,9 @@
 		03DFC45D2ABAB60100DF5BAB /* AddNewCommitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DFC45C2ABAB60100DF5BAB /* AddNewCommitController.swift */; };
 		03DFC45F2ABB2A3A00DF5BAB /* UITextField + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DFC45E2ABB2A3A00DF5BAB /* UITextField + ext.swift */; };
 		03DFC4622ABB40B400DF5BAB /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DFC4612ABB40B400DF5BAB /* CustomButton.swift */; };
+		03DFC4642ABD50BA00DF5BAB /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DFC4632ABD50BA00DF5BAB /* CustomCollectionViewCell.swift */; };
+		03DFC4662AC033A900DF5BAB /* CustomSettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DFC4652AC033A900DF5BAB /* CustomSettingsButton.swift */; };
+		03DFC4682AC2C14100DF5BAB /* Separator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DFC4672AC2C14100DF5BAB /* Separator.swift */; };
 		2320A871F1922917D27BD0CF /* Pods_Campit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251B0B847584B23FEA4FCC30 /* Pods_Campit.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +50,9 @@
 		03DFC45C2ABAB60100DF5BAB /* AddNewCommitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCommitController.swift; sourceTree = "<group>"; };
 		03DFC45E2ABB2A3A00DF5BAB /* UITextField + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField + ext.swift"; sourceTree = "<group>"; };
 		03DFC4612ABB40B400DF5BAB /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		03DFC4632ABD50BA00DF5BAB /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		03DFC4652AC033A900DF5BAB /* CustomSettingsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSettingsButton.swift; sourceTree = "<group>"; };
+		03DFC4672AC2C14100DF5BAB /* Separator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Separator.swift; sourceTree = "<group>"; };
 		251B0B847584B23FEA4FCC30 /* Pods_Campit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Campit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C7DDC6E13F388CF2CECB73 /* Pods-Campit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campit.release.xcconfig"; path = "Target Support Files/Pods-Campit/Pods-Campit.release.xcconfig"; sourceTree = "<group>"; };
 		E2E3DD59C18B8691F122AC29 /* Pods-Campit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campit.debug.xcconfig"; path = "Target Support Files/Pods-Campit/Pods-Campit.debug.xcconfig"; sourceTree = "<group>"; };
@@ -159,6 +165,9 @@
 			isa = PBXGroup;
 			children = (
 				03DFC4612ABB40B400DF5BAB /* CustomButton.swift */,
+				03DFC4632ABD50BA00DF5BAB /* CustomCollectionViewCell.swift */,
+				03DFC4652AC033A900DF5BAB /* CustomSettingsButton.swift */,
+				03DFC4672AC2C14100DF5BAB /* Separator.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -299,7 +308,9 @@
 			files = (
 				03DFC4622ABB40B400DF5BAB /* CustomButton.swift in Sources */,
 				03DFC42E2AB9661000DF5BAB /* Campit.xcdatamodeld in Sources */,
+				03DFC4682AC2C14100DF5BAB /* Separator.swift in Sources */,
 				03DFC45D2ABAB60100DF5BAB /* AddNewCommitController.swift in Sources */,
+				03DFC4642ABD50BA00DF5BAB /* CustomCollectionViewCell.swift in Sources */,
 				03DFC4242AB9661000DF5BAB /* AppDelegate.swift in Sources */,
 				03DFC4462AB96AF400DF5BAB /* AllViewController.swift in Sources */,
 				03DFC45F2ABB2A3A00DF5BAB /* UITextField + ext.swift in Sources */,
@@ -309,6 +320,7 @@
 				03DFC4422AB967B800DF5BAB /* Resources.swift in Sources */,
 				03DFC4262AB9661000DF5BAB /* SceneDelegate.swift in Sources */,
 				03DFC44A2AB96B0B00DF5BAB /* SettingsController.swift in Sources */,
+				03DFC4662AC033A900DF5BAB /* CustomSettingsButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

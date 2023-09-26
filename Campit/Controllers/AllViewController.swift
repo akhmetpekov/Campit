@@ -61,8 +61,22 @@ final class AllViewController: UIViewController {
         return button
     }()
     
+    private lazy var collectionView: UICollectionView = {
+        let layout = UICollectionViewFlowLayout()
+        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
+        collectionView.backgroundColor = .clear
+        collectionView.showsVerticalScrollIndicator = false
+        collectionView.alwaysBounceVertical = false
+        collectionView.setCollectionViewLayout(layout, animated: true)
+        collectionView.register(CustomCollectionViewCell.self, forCellWithReuseIdentifier: CustomCollectionViewCell.identifier)
+        return collectionView
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        collectionView.delegate = self
+        collectionView.dataSource = self
+        collectionView.transform = CGAffineTransform(scaleX: 1.0, y: -1.0)
         setupUI()
         makeConstraints()
     }
@@ -73,6 +87,7 @@ final class AllViewController: UIViewController {
         view.addSubview(plusButton)
         view.addSubview(shareButton)
         view.addSubview(filterButton)
+        view.addSubview(collectionView)
     }
     
     private func makeConstraints() {
@@ -95,6 +110,13 @@ final class AllViewController: UIViewController {
             make.leading.equalToSuperview().offset(Resources.Constants.titleLeading)
             make.top.equalTo(view.safeAreaLayoutGuide.snp.top).offset(Resources.Constants.titleTop)
         }
+        
+        collectionView.snp.makeConstraints { make in
+            make.leading.equalToSuperview().offset(Resources.Constants.titleLeading + 10)
+            make.trailing.equalToSuperview().offset(-1 * (Resources.Constants.titleLeading + 10))
+            make.top.equalTo(filterButton.snp.bottom).offset(20)
+            make.bottom.equalTo(view.snp.bottom).offset(-83)
+        }
     }
     
     @objc private func burgerButtonTapped() {
@@ -115,5 +137,40 @@ final class AllViewController: UIViewController {
     
     @objc private func filterButtonTapped() {
         print("hi")
+    }
+}
+
+extension AllViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 120
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CustomCollectionViewCell.identifier, for: indexPath) as! CustomCollectionViewCell
+        let itemsPerRow: CGFloat = 7
+        let paddingWidth = 8 * (itemsPerRow + 1)
+        let availableWidth = collectionView.frame.width - paddingWidth
+        let widthPerItem = availableWidth / itemsPerRow
+        cell.contentView.transform = CGAffineTransform(scaleX: 1.0, y: -1.0)
+        cell.configure(width: widthPerItem)
+        return cell
+    }
+}
+
+extension AllViewController: UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let itemsPerRow: CGFloat = 7
+        let paddingWidth = 8 * (itemsPerRow + 1)
+        let availableWidth = collectionView.frame.width - paddingWidth
+        let widthPerItem = availableWidth / itemsPerRow
+        return CGSize(width: widthPerItem, height: widthPerItem)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        return 10
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+        return 5
     }
 }
