@@ -7,3 +7,6 @@ Campit is a habit tracker
 - [ ] Refactor code, project now have a lot of repeatable code, so need to refactor some ui components so they will be reusable
 - [ ] Add grid of completed habits in allViewController
 - [ ] Add Logic
+
+## Preview
+![](https://github.com/akhmetpekov/Campit/blob/main/gifs/preview.gif)
